@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Redirect, useParams } from 'react-router-dom';
 
 import { getHeroesById } from '../../selectors/getHeroById';
