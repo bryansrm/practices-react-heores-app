@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import { AuthContext } from '../auth/AuthContext';
 
 import { LoginScreen } from '../components/login/LoginScreen';
