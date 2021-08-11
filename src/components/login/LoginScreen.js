@@ -3,7 +3,6 @@ import { AuthContext } from '../../auth/AuthContext';
 import { types } from '../../types/types';
 
 export const LoginScreen = ({ history }) => {
-    console.log(history);
 
     const { dispatch } = useContext(AuthContext);
 
