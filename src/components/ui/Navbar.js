@@ -10,8 +10,7 @@ export const Navbar = () => {
 
     const handleLogout = () => {
         dispatch({
-            type: types.logout,
-            payload: {}
+            type: types.logout
         });
 
         history.replace('/login');
